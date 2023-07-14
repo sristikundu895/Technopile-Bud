@@ -1,0 +1,786 @@
+
+.div1{background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100%;
+   animation: slide 10s infinite;
+color: white;
+height: 600px;}
+   
+   @keyframes slide{
+       0%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUbspelwd6JvgzOqCj9korMwrUYf8eO82hQ&usqp=CAU);}
+       20%{background-image: url(https://www.thestatesman.com/wp-content/uploads/2020/07/iStock-1213470238-e1596114385538.jpg);}
+       20.01%{background-image: url(https://www.ualberta.ca/education/media-library/faculty/images/news-teasers/1920_200831-remote-learning-banner-1217405994.jpg);}
+       40%{background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2020_34/1602980/at-home-school-classroom-kr-2x1-tease-200821.jpg);}
+       40.01%{background-image: url(https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/home-schooling.jpg);}
+       60%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbO4aj99cTybGQO2_QFQk1_hHEmUUojVxuV80suvpmNyJt5uQVStSOPEpTg71kXt5y-R0&usqp=CAU);}
+       60.01%{background-image: url(https://www.usnews.com/dims4/USNEWS/c7dfaf5/2147483647/crop/2000x1313%2B0%2B0/resize/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fe2%2Fd5%2Feea5d7334b729285f29c4b580e0d%2F200422-stock.jpg);}
+       80%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYXk_8TT7c1lanyEnOsDQkHGmrnnctIXR4MOF2fLsalbedO60J90-Df8ZytW5NrqYZqV8&usqp=CAU);}
+       80.01%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkW4_eCslneeLnAVB9-t7BOup78HsIhoZnIw&usqp=CAU);}
+       100%{background-image: url(https://hindi.careerindia.com/img/2021/05/onlinelearningdisadvantagesessayparagrapharticleinhindi-1620132506.jpg);}
+   }
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+    height: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #e66bff;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #bb47ff;
+}
+h2{
+    color: #6cec16;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+hr {border-top: 1px solid #000; width:50%;}
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+#contact2{
+    letter-spacing:3px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {background-color: #4CAF50;} /* Green */
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+
+
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.service .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.service .box-container .box{
+    flex:1 1 30rem;
+    text-align: center;
+    padding:2rem;
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.service .box-container .box i{
+    height:6rem;
+    width:6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color:#fff;
+    background:var(--main-color);
+    border-radius: 50%;
+}
+
+.service .box-container .box h3{
+    color:#444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.service .box-container .box p{
+    color:#666;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+
+
+
+
+.food-search{
+    background-image: url(../images/Shapes_blue.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.categories{
+    padding: 4% 0;
+   background-color: rgba(226, 21, 216, 0.911);
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+
+.food-menu{
+    background-color: rgba(219, 14, 168, 0.897);
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .home .home-content .text-2{
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
+    }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+    }
+    .services .serv-content .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+.myDiv {
+    
+    background-color: lightblue;    
+    text-align: center;
+    height: 600px;
+    width: 100%;
+  }
+  .card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
+    flex-wrap: wrap; }
+    .card_container .blog_card {
+      margin-bottom: 4rem;
+      flex-basis: 28rem;
+      transition: all 0.3s linear;
+      overflow: hidden; }
+      .card_container .blog_card:not(:first-child) {
+        margin-left: 3rem; }
+      .card_container .blog_card img {
+        height: 20rem;
+        width: 100%;
+        object-fit: cover; }
+      .card_container .blog_card:hover {
+        transform: scale(0.98); }
+    .card_container .card_details {
+      padding: 3rem;
+      text-align: center; }
+      .card_container .card_details h3,
+      .card_container .card_details p,
+      .card_container .card_details .main_btn {
+        margin-bottom: 1.5rem; }
+      .card_container .card_details h3 {
+        font-size: 1.8rem; }
+      .card_container .card_details .date {
+        font-weight: 700;
+        color: #aaa; }
+      .card_container .card_details p {
+        font-size: 1.4rem;
+        color: #222; }
+      .card_container .card_details .main_btn {
+        font-size: 1.6rem;
+        padding: 01rem 1.5rem;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        transition: all 0.3s linear; }
+        .card_container .card_details .main_btn.card_btn {
+          background-color: #ddd;
+          color: #111;
+          padding-top: 1rem 2rem; }
+        .card_container .card_details .main_btn:hover {
+          background-color: #ffd761; }
+  
+  
+          
+  .registration_container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  
+  .registration_box {
+    width: 100%;
+    display: flex;
+    background-color: #ffd761;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1), -2px -2px 6px rgba(0, 0, 0, 0.1);
+    padding: 4rem; }
+  
+  .left_container,
+  .right_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center; }
+  
+  .right_container {
+    flex-direction: column; }
+  
+  .signup-image-link {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    text-align: center; }
+  
+  .right_container img {
+    width: 100%;
+    height: 40rem;
+    flex-shrink: 1; }
+  
+    .newsletter {
+        width: 100%;
+        height: 40rem;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://1stwebdesigner.com/wp-content/uploads/2019/07/css-background-effects-thumb.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; }
+        .newsletter .project_heading {
+          padding-top: 4rem;
+          color: #fff;
+          margin-bottom: 0; }
+        .newsletter .newsletter_container {
+          width: 100%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        .newsletter .input_container {
+          display: flex; }
+          .newsletter .input_container input {
+            border: none;
+            outline: none;
+            padding: 1.5rem 3rem;
+            font-size: 1.8rem; }
+        .newsletter .main_btn {
+          font-size: 1.6rem;
+          padding: 01rem 1.5rem;
+          border-radius: 3px;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          color: #fff;
+          transition: all 0.3s linear;
+          padding: 1.5rem 3.5rem;
+          font-size: 1.8rem;
+          border-radius: 0; }
+          .newsletter .main_btn.one {
+            background-color: #ffd761;
+            color: #222; }
+          .newsletter .main_btn:hover {
+            background-color: #565387;
+            color: #fff; }
+
+            * {
+                box-sizing: border-box;
+              }
+              
+              
+              .column {
+                float: left;
+                width: 50%;
+                padding: 10px;
+                height: 300px; 
+              }
+              
+              
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+      
+
+
+.contact .icons-container{
+    display: flex;
+    gap:1.5rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.contact .icons-container .icons{
+    flex:1 1 25rem;
+    text-align: center;
+    padding:2rem;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contact .icons-container .icons i{
+    height:5rem;
+    width:5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: var(--main-color);
+    color:#fff;
+    border-radius: 50%;
+}
+
+.contact .icons-container .icons h3{
+    color:#111;
+    font-size: 2rem;
+    padding:.5rem 0;
+    padding-top: 1rem;
+}
+
+.contact .icons-container .icons p{
+    color:#666;
+    font-size: 1.7rem;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.contact .row form{
+    flex:1 1 55rem;
+    background:#fff;
+    padding:0 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contact .row .map{
+    flex:1 1 25rem;
+    border:1rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.contact .row form .box,
+.contact .row form textarea{
+    width: 100%;
+    border-bottom: .1rem solid #333;
+    color:#333;
+    text-transform: none;
+    font-size: 1.7rem;
+    padding:1rem 0;
+    margin:1rem 0;
+}
+
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+    border-color: var(--main-color);
+}
+
+.contact .row form .box::placeholder,
+.contact .row form textarea::placeholder{
+    text-transform: capitalize;
+}
+
+.contact .row form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.contact .row form .btn{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+
+img {
+    float: left;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.home .image{
+    flex:1 1 40rem;
+}
+
+.home .image img{
+    width:100%;
+}
+
+.home .content{
+    flex:1 1 40rem;
+}
+
+.home .content .hi{
+    font-size: 2rem;
+    color:var(--main-color);
+}
+
+.home .content h3{
+    font-size: 4.5rem;
+    color:#111;
+    text-transform: uppercase;
+}
+
+.home .content h3 span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+.home .content .info{
+    font-size: 2.5rem;
+    color:#111;
+    padding:.5rem 0;
+}
+
+.home .content .text{
+    font-size: 1.7rem;
+    color:#666;
+    padding:.5rem 0;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
