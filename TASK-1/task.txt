@@ -1,0 +1,10 @@
+Topic: Landing Page
+Landing Page is an independent web page that is mainly
+created to market or advertise for a particular product or
+service in the e-commerce field. A Landing Page can be
+created using HTML and CSS; where you’ll be required to
+create the basic structure for the page such as adding header
+& footer, creating columns, sections dividing along with
+creating a navigation bar, background, styling, etc. You need
+to consider several crucial outlooks also such as padding,
+margin, spacing, etc. to make it more creative and engaging.
