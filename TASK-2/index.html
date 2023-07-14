@@ -1,0 +1,401 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+         Survey Form 
+    </title>
+ 
+    <style>
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: #0508c4;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: #3e05c4;
+            border: 1px solid rgb(119, 119, 119);
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+  
+<body>
+    <h1 style="color: white;">Survey Form</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Age
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="age"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Mobile Number
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="Mobile Number"
+                   placeholder="Enter Mobile Number" />
+        </div>
+  
+        
+  
+        <div class="form-control">
+            <label>1. Are you satisfied with the teaching staff and their teaching methods?
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Extremely satisfied</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Very satisfied</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Satisfied</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Neutral</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Dissatisfied</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Very dissatisfied</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Extremely dissatisfied</input></label>
+        </div>
+
+        <div class="form-control">
+            <label>
+                2.How satisfied are you with the facilities provided by the college?
+            </label>
+ 
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Extremely satisfied</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Very satisfied</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Satisfied</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Neutral</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Dissatisfied</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Very dissatisfied</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Extremely dissatisfied</input></label>
+        </div>
+        <div class="form-control">
+            <label>
+                3. Was it easy to obtain the necessary resources from the college library?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            
+        </div>
+        <div class="form-control">
+            <label>
+                4. Is it easy to obtain the necessary resources from the college library?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            
+        </div>
+
+        <div class="form-control">
+            <label>
+                5. Do you feel it is easier to register for different courses within the college?
+            </label>
+ 
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Extremely satisfied</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Very satisfied</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Satisfied</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Neutral</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Dissatisfied</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Very dissatisfied</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Extremely dissatisfied</input></label>
+            
+        </div>
+        <div class="form-control">
+            <label>
+               6. How satisfied are you with the cleanliness and variety of food items available in the cafeteria?
+            </label>
+ 
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Extremely satisfied</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Very satisfied</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Satisfied</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Neutral</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Dissatisfied</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Very dissatisfied</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Extremely dissatisfied</input></label>
+            
+        </div>
+  
+        <div class="form-control">
+            <label>
+                7. How supportive were the faculty members?
+            </label>
+ 
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Extremely supportive</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Very supportive</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Supportive</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Neutral</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Unsupportive</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Very unsupportive</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Extremely unsupportive</input></label>
+            
+        </div>
+        <div class="form-control">
+            <label>
+                8. What do you think of the hostel?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Extremely crowded</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Very crowded</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Somewhat crowded</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Not so crowded</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Not at all crowded</input>
+            </label>
+            
+        </div>
+        
+        <div class="form-control">
+            <label>
+                9. Are you satisfied with the teaching staff and their teaching practices?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            
+        </div>
+
+        <div class="form-control">
+            <label>
+                10. Do you think faculty and support staff at the college were helpful?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="checkbox"
+                name="inp">Very helpful</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                       name="inp">Helpful</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                name="inp">Neither helpful nor unhelpful</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                name="inp">Unhelpful</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                       name="inp">Very unhelpful</input>
+            </label>
+            
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit" style="color: cornsilk;">
+            Submit
+        </button>
+    </form>
+</body>
+  
+</html>
